@@ -33,31 +33,31 @@ function makeSound(key) {
   var sound;
   switch (key) {
     case 'w':
-      sound = '../sounds/tom-1.mp3';
+      sound = 'sounds/tom-1.mp3';
       break;
     case 'a':
-      sound = '../sounds/tom-2.mp3';
+      sound = 'sounds/tom-2.mp3';
       break;
     case 's':
-      sound = '../sounds/tom-3.mp3';
+      sound = 'sounds/tom-3.mp3';
       break;
     case 'd':
-      sound = '../sounds/tom-4.mp3';
+      sound = 'sounds/tom-4.mp3';
       break;
     case 'j':
-      sound = '../sounds/snare.mp3';
+      sound = 'sounds/snare.mp3';
       break;
     case 'k':
-      sound = '../sounds/crash.mp3';
+      sound = 'sounds/crash.mp3';
       break;
     case 'l':
-      sound = '../sounds/kick-bass.mp3';
+      sound = 'sounds/kick-bass.mp3';
       break;
     case 'h':
-      sound = '../sounds/MarchingDrums2.mp3';
+      sound = 'sounds/MarchingDrums2.mp3';
       break;
     case 'f':
-      sound = '../sounds/Drumroll2.mp3';
+      sound = 'sounds/Drumroll2.mp3';
       break;
     default:
       console.log(this.textContent);
